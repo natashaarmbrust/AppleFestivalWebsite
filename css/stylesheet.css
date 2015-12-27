@@ -1,0 +1,579 @@
+/* CSS Style Sheet
+
+Natasha Armbrust, nka8
+p2: 10/2/15;
+All Copyrights Reserved */
+
+/*-------------------------------------------------*/
+/*------style sheet-----------------------*/
+/*-------------------------------------------------*/
+
+/*-------------------------------------------------*/
+/*------global styling-----------------------------*/
+/*-------------------------------------------------*/
+
+
+
+* {
+	margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+	margin-top: 15px;
+	font-family: Mistral, Arial, serif;
+	font-size: 63px;
+	padding-bottom: 15px;
+  	font-size : 100px;
+  	color : #FFFFFF;
+  	font-weight: lighter;
+  	text-transform: lowercase;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+p {
+	font-family: Avenir, Arial, serif;
+	font-size: 16px;
+	text-align: center; 
+	color: #FFFFFF;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+span {
+	padding: 40px;
+}
+
+.navigation {
+	height: 60px;
+	padding: 0;
+	margin: 0 auto;
+	border-bottom: solid;
+	border-width: 5px;
+	border-bottom-color: #A82811;
+	opacity: .5;
+	margin-top: 20px;
+}
+
+.navigation a {
+	width: 100%;
+	font-family: Phosphate;
+	font-size: 40px;
+	color: #42210B; 
+	background-color: white;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811; 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navigation a:hover {
+	color: #B0A855;
+	font-size: 40px;
+}
+
+
+/*<---------------------------FOOD-------------------------------------------------------------------->*/
+
+#FoodBody {
+	background-image: url("../images/Apple1.jpg");
+	background-color: #80121D;
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: Phosphate;
+}
+
+#Foodcontainer h1 {
+	margin-bottom: 0px;
+}
+
+#Foodcontainer h2 {
+	margin-top: 10px;
+	text-shadow: 1px 1px #42210B;
+	color: white;
+	font-size: 80px;
+	font-weight: lighter;
+	color:#B0A855;
+	margin-bottom: 20px;
+}
+
+#Foodcontainer h3 {
+	font-family: Avenir, Arial, serif;
+	font-size: 25px;
+	padding-top: 0px;
+	margin-top: 0px;
+	color: white;
+
+}
+
+#Foodtext {
+	background-color: #80121D;
+	padding-top: 10px;
+	width: 700px;
+	display: inline-block;
+	opacity: .8;
+}
+
+#Foodcontainer p {
+	margin-top: 0px;
+	width: 100%;
+	color: white;
+	display: inline-block;
+	font-size: 25px;
+}
+
+/*<---------------------------CONCERTS-------------------------------------------------------------------->*/
+
+#ConcertBody {
+	background-image: url("../images/Apple1.jpg");
+	background-color: #80121D;
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: Phosphate;
+	margin-bottom: 100px;
+}
+
+
+
+#Concertcontainer h1 {
+	margin-bottom: 0px;
+}
+
+#Concertcontainer h2 {
+	text-shadow: 1px 1px #42210B;
+	margin-top: 10px;
+	color: white;
+	font-size: 80px;
+	font-weight: lighter;
+	color:#B0A855;
+	margin-bottom: 20px;
+}
+
+#Concertcontainer h3 {
+	float: left;
+	width: 50%;
+	font-size: 30px;
+	margin-left: 20px;
+	color: white;
+	font-family: Phosphate, Arial, serif;
+	text-align: left;
+	font-weight: lighter;
+}
+
+#Concertcontainer h4 {
+	width: 40%;
+	font-size: 30px;
+	margin-right: 20px;
+	color: white;
+	font-family: Phosphate, Arial, serif;
+	text-align: right;
+	font-weight: lighter;
+	float: right;
+}
+
+#p1, #p2 {
+	width: 22%;
+	padding: 5px;
+	background-color: #80121D;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811;
+	float: left;
+	margin-right: 5px;
+	margin: 5px;
+	margin-top: 18px;
+	height: 412px;
+	opacity: .8;
+}
+
+#p3, #p4 {
+	width: 22%;
+	padding: 5px;
+	background-color: #80121D;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811;
+	float: right;
+	margin-right: 5px;
+	margin: 5px;
+	margin-top: 0px;
+	height: 412px;
+	opacity: .8;
+
+}
+
+#Concertcontainer ul, li {
+	list-style-type: none;
+	margin-top: 0px;
+	color: white;
+	width: 90%;
+	font-size: 16px;
+	text-align: left;
+	font-family: Avenir;
+	padding: 5px;
+}
+
+/*<---------------------------ABOUT-------------------------------------------------------------------->*/
+
+#AboutBody {
+	background-image: url("../images/Apple1.jpg");
+	background-size: contain;
+	background-color: #80121D; 
+	background-position: right top;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: Phosphate;
+}
+
+#AboutBody body {
+	background-repeat: repeat;
+}
+
+#Aboutcontainer h1 {
+	margin-bottom: 0px;
+}
+
+#Aboutcontainer h2 {
+	text-shadow: 1px 1px #42210B;
+	margin-top: 10px;
+	color: white;
+	font-size: 80px;
+	font-weight: lighter;
+	color:#B0A855;
+	margin-bottom: 20px;
+}
+
+#Aboutcontainer h3 {
+	font-family: Avenir, Arial, serif;
+	font-size: 25px;
+	padding-top: 0px;
+	margin-top: 0px;
+	color: white;
+
+}
+
+#Aboutcontainer p {
+	margin-top: 0px;
+	width: 100%;
+	color: white;
+	display: inline-block;
+	font-size: 25px;
+}
+
+#Abouttext {
+	background-color: #80121D;
+	padding-top: 10px;
+	width: 700px;
+	display: inline-block;
+	opacity: .8;
+}
+
+#Map{
+	width: 80%;
+	height: 80%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	opacity: .7;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811; 
+}
+
+/*<----------------------------------------------------PHOTOS--------------------------------->*/
+
+#PhotosBody {
+	background-image: url("../images/Apple1.jpg");
+	background-color: #80121D; 
+	background-size: cover;
+	background-position: right top;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-family: Phosphate;
+}
+#Photoscontainer h1 {
+	margin-bottom: 0px;
+}
+
+#Photoscontainer h2 {
+	text-shadow: 1px 1px #42210B;
+	margin-top: 10px;
+	color: white;
+	font-size: 80px;
+	font-weight: lighter;
+	color:#B0A855;
+	margin-bottom: 20px;
+}
+
+#Photoscontainer img {
+	width: 300px;
+	height: 300px;
+	padding: 0px;
+	margin: 40px;
+	margin-left: 30px;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811;
+	display: inline-block;
+	float: left;
+}
+
+/*<---------------------------HOME-------------------------------------------------------------------->*/
+
+
+#Home {
+	background-image: url("../images/HomePage.png");
+	background-size: cover;
+	background-color: #A82811;
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+
+#Photos {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+
+}
+
+#Photos a {
+	font-family: Phosphate;
+	font-size: 63px;
+	color: #42210B;
+	background-color: white;
+	opacity: .5;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#Photos a:hover {
+	color: #B0A855;
+}
+
+
+#Food {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+}
+
+#Food a {
+	font-family: Phosphate;
+	font-size: 63px;
+	color: #42210B; 
+	background-color: white;
+	opacity: .5;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#Food a:hover {
+	color: #B0A855;
+}
+
+
+#Entertainment {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+	margin-top: 17%;
+
+}
+
+#Entertainment a {
+	font-family: Phosphate;
+	font-size: 63px;
+	color: #42210B; 
+	background-color: white;
+	opacity: .5;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#Entertainment a:hover {
+	color: #B0A855;
+}
+
+#About {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+	margin-top: 17%;
+}
+
+#About a {
+	font-family: Phosphate;
+	font-size: 63px;
+	color: #42210B; /*color: #B0A855;*/
+	background-color: white;
+	opacity: .5;
+	border-style: solid;
+	border-width: 5px;
+	border-color:#A82811; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#About a:hover {
+	color: #B0A855;
+}
+
+#container h1 {
+	text-align: center;
+	color: white;
+}
+
+.credit {
+	width: 100%;
+	text-align: left;
+	float: right;
+	margin-top: 100px;
+
+}
+
+.credit p {
+	color: white;
+	font-size: 12px;
+	font-family: Avenir;
+	font-weight: lighter;
+}
+
+
+/*<-----------------------------------------MEDIA--------------------------------------------->*/
+
+@media screen and (max-width: 1100px) {
+	#Photos {
+		width: 100%;
+		margin-top: 0px;
+	}
+
+	#Entertainment {
+		width: 100%;
+	}
+
+	#About {
+		width: 100%;
+		margin-bottom: 17%;
+	}
+
+	#Food {
+		width: 100%;
+		margin-top: 17%;
+	}
+
+	#Home {
+		background-image: url("../images/Apple1.jpg");
+		background-color: #80121D;
+	}
+
+	#p1, #p2, #p3, #p4 {
+		width: 70%;
+		margin: 5px;
+		float: left;
+		margin-right: 5px;
+	}
+
+	#Concertcontainer h3 {
+		width: 100%;
+		text-align: center;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#Concertcontainer h4 {
+		width: 100%;
+		text-align: center;
+		float: left;
+		margin: 0 auto;
+	}
+
+	#Foodcontainer p {
+		font-size: 15px;
+	}
+
+	#Foodtext {
+		width: 90%;
+	}
+
+	#AboutBody {
+		background-size: cover;
+	}
+
+	#Abouttext {
+		width: 90%;
+	}
+
+	#Aboutcontainer p {
+		font-size: 15px;
+	}
+
+}
+
+@media screen and (max-width: 1300px) {
+	.navigation {
+		width: 100%;
+		margin: 0 auto;
+		margin-top: 5px;
+	}
+
+	.navigation a {
+		width: 100%;
+		font-size: 30px;  
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+
+	.navigation a:hover {
+		font-size: 30px;
+	}
+
+	span {
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 725px){
+
+	.navigation a {
+		font-size: 15px;  
+	}
+
+	.navigation a:hover {
+		font-size: 15px;
+	}
+
+	span {
+		padding: 2px;
+	}
+}
+
+
+
+
+
+
